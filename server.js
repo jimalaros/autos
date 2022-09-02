@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/dist/venta-autos'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/VENTAAUTOS'));
+  res.sendFile(path.join(__dirname + '/dist/VENTAAUTOS/venta-autos'));
 });
 
 // default Heroku port
